@@ -1,24 +1,17 @@
-# README
+# joseph  starter
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ > This is a ruby on rails application whihc allows user to create thei own portfolios
 
-Things you may want to cover:
+  ### Features
 
-* Ruby version
+  - real time chat engine
+  - blog
+  -portfolio
+  - drag and dop interface
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ ### Ruby code
+ ```ruby
+ def my_great_etho
+   puts 'here it is'
+ end
+ ```
