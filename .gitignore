@@ -18,5 +18,5 @@
 
 .byebug_history
 
-#I dont wont to show my secrets
+# I dont wont to show my secrets
 /config/secrets.yml
