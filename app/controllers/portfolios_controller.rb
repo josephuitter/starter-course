@@ -1,4 +1,5 @@
 class PortfoliosController < ApplicationController
+<<<<<<< HEAD
 	def index
 		@portfolio_items = Portfolio.all
 	end
@@ -48,4 +49,6 @@ class PortfoliosController < ApplicationController
       format.html { redirect_to portfolios_url, notice: 'The Record was successfully deleted.' }
     end
   end
+=======
+>>>>>>> parent of c660018...  integrated index action for portfolio items
 end
