@@ -6,4 +6,10 @@ class Portfolio < ApplicationRecord
 		where(subtitle: "python")
 	end
 	scope :ruby_on_rails_portfolio_items, -> {where(subtitle: 'ruby on rails')}
+
+	after_initialize :set_defaults
+	def set_defaults
+		self.main_image ||= "http://placehold.it/600x400"
+		self.thumb_image||= "http://placehold.it/300x250"
+	end
 end
