@@ -60,3 +60,7 @@ gem 'jquery-rails'
 gem 'uittermark_view_tool', git: 'https://github.com/josephuitter/uittermark_view_tool.gemspec'
 
 gem 'petergate', '~> 1.6', '>= 1.6.3'
+
+gem "font-awesome-rails"
+
+gem 'kaminari', :git => 'https://github.com/kaminari/kaminari'
