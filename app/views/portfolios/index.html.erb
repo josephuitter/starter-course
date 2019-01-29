@@ -1,8 +1,7 @@
-<h1> Items</h1>
-
-<%= link_to "Create New Item", new_portfolio_url if logged_in?(:site_admin)  %>
-
-
-<% @portfolio_items.each do |portfolio_item| %>
-	<%= render partial: "portfolio", locals: { portfolio_item: portfolio_item } %>
-<% end %>
+<div class="album text-muted">
+  <div class="container">
+    <div class="row">
+	<%= render partial: "portfolio_item", collection: @portfolio_items %>
+	</div>
+  </div>
+</div>
