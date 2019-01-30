@@ -64,3 +64,5 @@ gem 'petergate', '~> 1.6', '>= 1.6.3'
 gem "font-awesome-rails"
 
 gem 'kaminari', :git => 'https://github.com/kaminari/kaminari'
+
+gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
