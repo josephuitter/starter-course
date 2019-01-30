@@ -66,3 +66,10 @@ gem "font-awesome-rails"
 gem 'kaminari', :git => 'https://github.com/kaminari/kaminari'
 
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
+
+gem 'dotenv-rails', '~> 2.6'
+
+gem 'carrierwave-aws', '~> 1.3'
+
+gem 'mini_magick', '~> 4.9', '>= 4.9.2'
+
