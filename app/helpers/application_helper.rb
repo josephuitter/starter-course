@@ -20,23 +20,23 @@ module ApplicationHelper
 	[
 		{
 			url: root_path,
-			title: 'home'
+			title: 'home '
 		},
 		{
 			url: about_path,
-			title: 'about'
+			title: 'about '
 		},
 		{
 			url: contact_path,
-			title: 'contact'
+			title: 'contact '
 		},
 		{
 			url: blogs_path,
-			title: 'blog'
+			title: 'blog '
 		},
 		{
 			url: portfolios_path,
-			title: 'portfolio'
+			title: 'portfolio '
 		}								
   	]
   end	
