@@ -77,6 +77,7 @@ body {
 
 .masthead-brand {
   margin-bottom: 0;
+  margin-top: 0.5rem;
 }
 
 .nav-masthead .nav-link {
@@ -101,7 +102,7 @@ body {
   border-bottom-color: #fff;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 60rem) {
   .masthead-brand {
     float: left;
   }
@@ -159,13 +160,7 @@ body {
   }
 }
 
-@media (min-width: 62em) {
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 55rem;
-  }
-}
+
 
 /*
  * custom styles
