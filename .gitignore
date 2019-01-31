@@ -20,5 +20,6 @@
 
 # I dont wont to show my secrets
 /config/secrets.yml
+.env
 
 *.DS_Store*
