@@ -73,3 +73,4 @@ gem 'carrierwave-aws', '~> 1.3'
 
 gem 'mini_magick', '~> 4.9', '>= 4.9.2'
 
+gem 'cocoon', '~> 1.2', '>= 1.2.9'
