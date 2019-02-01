@@ -76,3 +76,5 @@ gem 'mini_magick', '~> 4.9', '>= 4.9.2'
 gem 'cocoon', '~> 1.2', '>= 1.2.9'
 
 gem 'gritter', '~> 1.2'
+
+gem 'redis', '~> 4.1'
